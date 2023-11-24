@@ -127,13 +127,13 @@
   display: flex;
   align-items: center;
 }
-.img-size{
-  height:40px;
+.img-size {
+  height: 40px;
   width: 40px;
   object-fit: cover;
   object-position: top;
 }
-.icon-margin{
+.icon-margin {
   margin-left: 1rem !important;
 }
 
@@ -189,7 +189,7 @@
     justify-content: space-between;
     width: 70%;
   }
-  
+
   .sugg {
     margin-left: 2rem;
     margin-top: 2rem;
@@ -264,12 +264,12 @@
     height: 57px;
     width: 57px;
     margin: 0 4px;
-    gap:0 !important;
+    gap: 0 !important;
   }
   .text-m {
     margin-left: 185px !important;
   }
-  .icon-margin{
+  .icon-margin {
     margin-left: 8px !important;
   }
 }
@@ -278,15 +278,52 @@
     height: 55px;
     width: 52px;
     margin: 0 2px;
-    gap:0 !important;
+    gap: 0 !important;
   }
   .text-m {
-    margin-left: 150px !important;
+    margin-left: 13rem !important;
   }
-  .icon-margin{
+  .icon-margin {
+    margin-left: 5px !important;
+  }
+  .content-img {
+    width: 100vw;
+  }
+  .content-img .img {
+    width: 100%;
+  }
+  .img-header {
+    width: 90%;
+    margin: 0 10px;
+  }
+  .content-img .img .main-img {
+    width:90% !important;
+  }
+  .saved {
+    margin-left: 190px !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .canvas-- {
+    height: 50px;
+    width: 45px;
+    margin: 0 2px;
+    gap: 0 !important;
+  }
+  .text-m {
+    margin-left: 10rem !important;
+  }
+  .icon-margin {
     margin-left: 5px !important;
   }
   .saved {
-    margin-left:145px !important;
+    margin-left: 145px !important;
+  }
+  .img-size {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    object-position: top;
   }
 }

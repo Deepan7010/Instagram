@@ -24,7 +24,7 @@ const Homes = () => {
           return (
             <div className="content-img" key={index}>
               <div className="img">
-                <div>
+                <div className="img-header">
                   <img
                     src={item}
                     className="rounded-circle my-2 ms-1 me-2 cc img-size"
@@ -37,7 +37,7 @@ const Homes = () => {
                 </div>
                 <Image
                   src={item}
-                  className="border rounded border-dark border-2 w-75 "
+                  className="border rounded border-dark border-2 w-75 main-img "
                   style={{objectFit:"contain"}}
                 ></Image>
                 <div>
