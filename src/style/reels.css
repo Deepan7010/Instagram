@@ -65,24 +65,23 @@ html {
     position: relative;
     left: 0;
     top: 0;
-    width:100%;
+    width: 100%;
   }
   .video-container {
-    height: 80vh;
+    height: 75vh;
     width: 70vw;
   }
-
 }
 
-@media screen and (max-width:380px) {
+@media screen and (max-width: 380px) {
   .video-container {
-    height: 80vh;
-    width: 89vw;
-  } 
+    height: 75vh;
+    width: 85vw;
+  }
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width: 320px) {
   .video-container {
-    height: 81vh;
+    height: 75vh;
     width: 95vw;
-  } 
+  }
 }

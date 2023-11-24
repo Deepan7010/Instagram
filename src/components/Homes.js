@@ -27,19 +27,17 @@ const Homes = () => {
                 <div>
                   <img
                     src={item}
-                    className="rounded-circle my-2 ms-1 me-2 cc"
-                    height={"40px"}
-                    width={"40px"}
+                    className="rounded-circle my-2 ms-1 me-2 cc img-size"
                     alt="..."
                   />
                   <span className="fw-semibold cc">Shadow</span>
-                  <span className="text-end cc" style={{ marginLeft: "210px" }}>
+                  <span className="text-end cc text-m" style={{ marginLeft: "210px" }}>
                     <BsThreeDots />
                   </span>
                 </div>
                 <Image
                   src={item}
-                  className="border rounded border-dark border-2 w-75"
+                  className="border rounded border-dark border-2 w-75 "
                   style={{objectFit:"contain"}}
                 ></Image>
                 <div>
@@ -49,14 +47,14 @@ const Homes = () => {
                     style={{ backgroundColor: "white", borderRadius: "10px" }}
                     width={"30px"}
                     height={"30px"}
-                    className="ms-3 mt-2"
+                    className="mt-2 icon-margin"
                   />
                   <Image
                     src={share}
                     style={{ backgroundColor: "white", borderRadius: "10px" }}
                     width={"30px"}
                     height={"30px"}
-                    className="ms-3 mt-2"
+                    className="icon-margin mt-2 "
                   />
                   <span className="" style={{ marginLeft: "170px" }}>
                     <Image

@@ -127,6 +127,15 @@
   display: flex;
   align-items: center;
 }
+.img-size{
+  height:40px;
+  width: 40px;
+  object-fit: cover;
+  object-position: top;
+}
+.icon-margin{
+  margin-left: 1rem !important;
+}
 
 @media screen and (max-width: 1440px) {
   .content {
@@ -250,5 +259,17 @@
   .content-img .img {
     width: 100vw;
     margin-bottom: 50px;
+  }
+  .canvas-- {
+    height: 57px;
+    width: 57px;
+    margin: 0 4px;
+    gap:0 !important;
+  }
+  .text-m {
+    margin-left: 185px !important;
+  }
+  .icon-margin{
+    margin-left: 8px !important;
   }
 }

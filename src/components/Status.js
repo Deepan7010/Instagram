@@ -14,8 +14,8 @@ const Status = () => {
       <div id="car" className="carousel slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <div className="d-flex gap-3 justify-content-evenly my-3">
-              <div className="canvas--">
+            <div className="d-flex  justify-content-evenly my-3">
+              <div className="canvas-- gap-3">
                 {" "}
                 <img
                   src={img7}
