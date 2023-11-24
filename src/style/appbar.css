@@ -1,0 +1,228 @@
+.contain {
+  background-color: black;
+}
+.navs {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: space-evenly;
+  height: 80vh;
+  position: fixed;
+  width: 250px;
+  padding: 0 calc(2rem - 9px);
+}
+.navs a {
+  text-decoration: none;
+  color: white;
+}
+.navs a:hover {
+  background-color: rgba(128, 128, 128, 0.219);
+  border-radius: 10px;
+}
+
+.na {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 20vh;
+  width: 250px;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  padding: 0 calc(2rem - 9px);
+}
+.na a {
+  text-decoration: none;
+  color: white;
+}
+.na a:hover {
+  background-color: rgba(128, 128, 128, 0.219);
+  border-radius: 10px;
+}
+.logo {
+  display: none;
+}
+
+.create {
+  position: relative;
+  top: 0;
+  left: 70px;
+  height: 100vh;
+  width: calc(95vw + 6px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.create-content {
+  width: 35vw;
+  height: 70vh;
+  background-color: #262727;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+.create-header {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.153);
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+}
+.create-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+}
+.img-center {
+  width: 150px;
+  height: 100px;
+}
+.bd {
+  margin-top: 10px;
+  padding-top: 2px !important;
+}
+.more {
+  position: absolute;
+  bottom: 70px;
+  border-radius: 10px;
+  width: 18vw;
+  padding: 1rem 0;
+  left: 10px;
+  color: white;
+  z-index: 10;
+  background-color: #262727;
+  display: none;
+}
+.more-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 5px;
+  border-bottom: 5px solid rgba(128, 128, 128, 0.162);
+}
+.more-icon {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+.more-icon:hover {
+  background-color: rgba(128, 128, 128, 0.107);
+}
+.more-icons {
+  padding:10px 0;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.162);
+}
+.save {
+  width: 30px;
+  height: 35px;
+  margin-right: 10px;
+  margin-left: 0 !important;
+}
+.log {
+  padding: 10px 20px 10px 20px;
+  margin: 10px 10px 0 10px;
+  border-radius: 10px;
+}
+.log:hover {
+  background-color: rgba(128, 128, 128, 0.107);
+}
+@media screen and (max-width: 1440px) {
+  .create {
+    width: calc(95vw - 6px);
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hide {
+    display: none !important;
+  }
+  .navs {
+    width: 70px !important;
+    padding: 0 10px !important;
+  }
+  .na {
+    width: 70px !important;
+    padding: 0 10px !important;
+  }
+  .logo {
+    display: block !important;
+  }
+  .create {
+    width: calc(93vw + 2px);
+    display: none;
+  }
+  .create-content {
+    width: 50vw;
+  }
+  .more {
+    left:60px;
+    bottom: 10px;
+    width:30vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navs {
+    width: 70px !important;
+    padding: 0 10px !important;
+  }
+  .create {
+    width: calc(90vw + 5px);
+    display: none;
+  }
+  .create-content {
+    width: 60vw;
+  }
+  .more {
+   
+    width:40vw;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .navs {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100% !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 12;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  .navs a {
+    padding: 5px !important;
+  }
+  .logo {
+    display: none !important;
+  }
+  .na {
+    display: none !important;
+  }
+  .search {
+    display: none !important;
+  }
+  .create {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: none;
+  }
+  .create-content {
+    width: 90vw;
+  }
+  .more {
+   display: none !important;
+  }
+}

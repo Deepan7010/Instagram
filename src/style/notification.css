@@ -1,0 +1,62 @@
+.notification {
+  position: relative;
+  top: 0;
+  left: 70px;
+  background-color: black;
+  width: 27vw;
+  height: 100vh;
+  color: white;
+  overflow-y: scroll;
+}
+.notification-header {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.386);
+}
+.sub {
+  padding: 20px 0 0 25px;
+}
+.notification-body {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  padding-bottom: 1rem;
+}
+.notification-body .img-1 {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 100%;
+}
+.notification-body .img-2 {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: top;
+}
+.notification-title {
+  font-size: 14px;
+  height: 10px;
+  width: 250px;
+}
+.grey {
+  color: grey;
+}
+@media screen and (max-width:1200px) {
+  .notification {
+    width: 38vw;
+  }
+  
+}
+@media screen and (max-width:768px) {
+  .notification {
+    width: 48vw;
+  }
+}
+@media screen and (max-width:480px){
+  .notification {
+    position: relative;
+    top:0;
+    left:0;
+    width: 100vw;
+  }
+}

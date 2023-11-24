@@ -1,0 +1,88 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.Apps {
+  position: relative;
+  left: 240px;
+  top: 0;
+  width: calc(85vw - 10px);
+  height: 100vh;
+  background-color: rgb(26, 25, 25);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.video-container {
+  position: relative;
+  height: 85vh;
+  width: 25vw;
+  border-radius: 10px;
+  background-color: white;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+/* for chrome and opera */
+.video-container::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .Apps {
+    width: calc(84vw - 10px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Apps {
+    position: relative;
+    left: 70px;
+    top: 0;
+    width: calc(95vw - 19px);
+  }
+  .video-container {
+    height: 90vh;
+    width: 35vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Apps {
+    position: relative;
+    left: 70px;
+    top: 0;
+    width: calc(93vw - 16px);
+  }
+  .video-container {
+    height: 85vh;
+    width: 40vw;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .Apps {
+    position: relative;
+    left: 0;
+    top: 0;
+    width:100%;
+  }
+  .video-container {
+    height: 80vh;
+    width: 70vw;
+  }
+
+}
+
+@media screen and (max-width:380px) {
+  .video-container {
+    height: 80vh;
+    width: 89vw;
+  } 
+}
+@media screen and (max-width:320px) {
+  .video-container {
+    height: 81vh;
+    width: 95vw;
+  } 
+}

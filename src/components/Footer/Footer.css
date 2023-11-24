@@ -1,0 +1,28 @@
+.video-text {
+  position: absolute;
+  bottom: 5%;
+  color: #fff;
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.video-text > div {
+  margin-left: 20px;
+}
+
+.footer-buttons {
+  position: absolute;
+  bottom: 3%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
