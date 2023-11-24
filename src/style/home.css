@@ -257,7 +257,7 @@
     width: 100vw;
   }
   .content-img .img {
-    width: 100vw;
+    width: 100%;
     margin-bottom: 50px;
   }
   .canvas-- {
@@ -267,10 +267,20 @@
     gap: 0 !important;
   }
   .text-m {
-    margin-left: 185px !important;
+    margin-left: 15rem !important;
   }
   .icon-margin {
     margin-left: 8px !important;
+  }
+  .img-header {
+    width: 90%;
+    margin: 0 10px;
+  }
+  .content-img .img .main-img {
+    width: 90% !important;
+  }
+  .saved {
+    margin-left: 230px !important;
   }
 }
 @media only screen and (max-width: 380px) {
@@ -297,7 +307,7 @@
     margin: 0 10px;
   }
   .content-img .img .main-img {
-    width:90% !important;
+    width: 90% !important;
   }
   .saved {
     margin-left: 190px !important;
