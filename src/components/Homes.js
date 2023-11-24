@@ -56,7 +56,7 @@ const Homes = () => {
                     height={"30px"}
                     className="icon-margin mt-2 "
                   />
-                  <span className="" style={{ marginLeft: "170px" }}>
+                  <span className="saved" style={{ marginLeft: "170px" }}>
                     <Image
                       src={save}
                       style={{

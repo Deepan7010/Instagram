@@ -273,3 +273,20 @@
     margin-left: 8px !important;
   }
 }
+@media only screen and (max-width: 380px) {
+  .canvas-- {
+    height: 55px;
+    width: 52px;
+    margin: 0 2px;
+    gap:0 !important;
+  }
+  .text-m {
+    margin-left: 150px !important;
+  }
+  .icon-margin{
+    margin-left: 5px !important;
+  }
+  .saved {
+    margin-left:145px !important;
+  }
+}
